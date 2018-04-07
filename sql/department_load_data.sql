@@ -1,0 +1,2 @@
+COPY "DEPARTMENT"("ID","NAME","CHIEF","ADDRESS","CITY","STATE","ZIP","PHONE","PERSONEL") 
+FROM 'C:\Users\Louis\WORKSPACES\fire-app\fire-app-database\fireapp-database\department_data.csv' DELIMITER ',' CSV HEADER;;

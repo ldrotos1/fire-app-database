@@ -1,0 +1,2 @@
+COPY "APPARATUS"("ID","UNIT_DESIGNATOR","STATION_ID","UNIT_TYPE_ID","IS_RESERVE") 
+FROM 'C:\Users\Louis\WORKSPACES\fire-app\fire-app-database\fireapp-database\apparatus_data.csv' DELIMITER ',' CSV HEADER;;
