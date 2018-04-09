@@ -1,2 +1,2 @@
-COPY "STATION"("ID","STATION_NUMBER","STATION_DESIGNATOR","DEPARTMENT_ID","LAT","LON","STATION_NAME","ADDRESS","CITY","STATE","ZIP","PHONE","IS_VOLUNTEER") 
-FROM 'C:\Users\Louis\WORKSPACES\fire-app\fire-app-database\fireapp-database\station_data.csv' DELIMITER ',' CSV HEADER;;
+COPY "station"("id","number","designator","department_id","lat","lon","name","address","city","state","zip","phone","is_volunteer") 
+FROM 'C:\Users\Louis\WORKSPACES\fire-app\fire-app-database\station_data.csv' DELIMITER ',' CSV HEADER;;

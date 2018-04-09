@@ -1,19 +1,19 @@
--- Table: public."APPARATUS_TYPE"
+-- Table: public."apparatus_type"
 
--- DROP TABLE public."APPARATUS_TYPE";
+-- DROP TABLE public."apparatus_type";
 
-CREATE TABLE public."APPARATUS_TYPE"
+CREATE TABLE public."apparatus_type"
 (
-    "ID" integer NOT NULL,
-    "NAME" character varying(50) COLLATE pg_catalog."default" NOT NULL,
-    "IMAGE" character varying(50) COLLATE pg_catalog."default" NOT NULL,
-    "DESCRIPTION" text COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT "APPARATUS_TYPE_pkey" PRIMARY KEY ("ID")
+    "id" integer NOT NULL,
+    "name" character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    "image" character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    "description" text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "apparatus_type_pkey" PRIMARY KEY ("id")
 )
 WITH (
     OIDS = FALSE
 )
 TABLESPACE pg_default;
 
-ALTER TABLE public."APPARATUS_TYPE"
+ALTER TABLE public."apparatus_type"
     OWNER to postgres;

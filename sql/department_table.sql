@@ -1,25 +1,25 @@
--- Table: public."DEPARTMENT"
+-- Table: public."department"
 
--- DROP TABLE public."DEPARTMENT";
+-- DROP TABLE public."department";
 
-CREATE TABLE public."DEPARTMENT"
+CREATE TABLE public."department"
 (
-    "ID" integer NOT NULL,
-    "NAME" character varying(100) COLLATE pg_catalog."default" NOT NULL,
-    "CHIEF" character varying(100) COLLATE pg_catalog."default" NOT NULL,
-    "ADDRESS" character varying(100) COLLATE pg_catalog."default" NOT NULL,
-    "CITY" character varying(50) COLLATE pg_catalog."default" NOT NULL,
-    "STATE" character varying(2) COLLATE pg_catalog."default" NOT NULL,
-    "ZIP" character varying(5) COLLATE pg_catalog."default" NOT NULL,
-    "PHONE" character varying(12) COLLATE pg_catalog."default" NOT NULL,
-    "PERSONEL" integer NOT NULL,
-    "BORDER" polygon,
-    CONSTRAINT "DEPARTMENT_pkey" PRIMARY KEY ("ID")
+    "id" integer NOT NULL,
+    "name" character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    "chief" character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    "adddress" character varying(100) COLLATE pg_catalog."default" NOT NULL,
+    "city" character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    "state" character varying(2) COLLATE pg_catalog."default" NOT NULL,
+    "zip" character varying(5) COLLATE pg_catalog."default" NOT NULL,
+    "phone" character varying(12) COLLATE pg_catalog."default" NOT NULL,
+    "personnel" integer NOT NULL,
+    "border" polygon,
+    CONSTRAINT "department_pkey" PRIMARY KEY ("id")
 )
 WITH (
     OIDS = FALSE
 )
 TABLESPACE pg_default;
 
-ALTER TABLE public."DEPARTMENT"
+ALTER TABLE public."department"
     OWNER to postgres;

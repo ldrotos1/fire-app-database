@@ -1,21 +1,21 @@
--- Table: public."APPARATUS"
+-- Table: public."apparatus"
 
--- DROP TABLE public."APPARATUS";
+-- DROP TABLE public."apparatus";
 
-CREATE TABLE public."APPARATUS"
+CREATE TABLE public."apparatus"
 (
-    "ID" integer NOT NULL,
-    "UNIT_DESIGNATOR" character varying(15) COLLATE pg_catalog."default",
-    "STATION_ID" integer,
-    "UNIT_TYPE_ID" integer NOT NULL,
-    "IS_RESERVE" boolean NOT NULL,
-    CONSTRAINT "APPARATUS_pkey" PRIMARY KEY ("ID"),
-    CONSTRAINT unit_designator_uq_cons UNIQUE ("UNIT_DESIGNATOR")
+    "id" integer NOT NULL,
+    "unit_designator" character varying(15) COLLATE pg_catalog."default",
+    "station_id" integer,
+    "unit_type_id" integer NOT NULL,
+    "is_reserve" boolean NOT NULL,
+    CONSTRAINT "apparatus_pkey" PRIMARY KEY ("id"),
+    CONSTRAINT unit_designator_uq_cons UNIQUE ("unit_designator")
 )
 WITH (
     OIDS = FALSE
 )
 TABLESPACE pg_default;
 
-ALTER TABLE public."APPARATUS"
+ALTER TABLE public."apparatus"
     OWNER to postgres;
