@@ -4,9 +4,9 @@
 
 CREATE TABLE public."station"
 (
-    "id" integer NOT NULL,
+    "station_id" integer NOT NULL,
     "number" integer NOT NULL,
-    "designator" integer NOT NULL,
+    "station_designator" integer NOT NULL,
     "department_id" integer NOT NULL,
     "lat" double precision NOT NULL,
     "lon" double precision NOT NULL,

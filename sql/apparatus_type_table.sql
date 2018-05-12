@@ -4,7 +4,7 @@
 
 CREATE TABLE public."apparatus_type"
 (
-    "id" integer NOT NULL,
+    "apparatus_type_id" integer NOT NULL,
     "name" character varying(50) COLLATE pg_catalog."default" NOT NULL,
     "image" character varying(50) COLLATE pg_catalog."default" NOT NULL,
     "description" text COLLATE pg_catalog."default" NOT NULL,

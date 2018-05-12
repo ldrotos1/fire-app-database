@@ -4,7 +4,7 @@
 
 CREATE TABLE public."department"
 (
-    "id" integer NOT NULL,
+    "department_id" integer NOT NULL,
     "name" character varying(100) COLLATE pg_catalog."default" NOT NULL,
     "chief" character varying(100) COLLATE pg_catalog."default" NOT NULL,
     "adddress" character varying(100) COLLATE pg_catalog."default" NOT NULL,
