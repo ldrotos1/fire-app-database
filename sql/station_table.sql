@@ -4,9 +4,8 @@
 
 CREATE TABLE public."station"
 (
-    "station_id" integer NOT NULL,
-    "number" integer NOT NULL,
     "station_designator" integer NOT NULL,
+    "number" integer NOT NULL,
     "department_id" integer NOT NULL,
     "lat" double precision NOT NULL,
     "lon" double precision NOT NULL,
@@ -18,9 +17,11 @@ CREATE TABLE public."station"
     "phone" character varying(12) COLLATE pg_catalog."default" NOT NULL,
     "is_volunteer" boolean NOT NULL,
     "location" point,
-    CONSTRAINT "station_pkey" PRIMARY KEY ("id"),
-    CONSTRAINT stat_num_dept_id_uq_con UNIQUE ("number", "department_id"),
-    CONSTRAINT station_desig_uq_con UNIQUE ("designator")
+    CONSTRAINT "station_pkey" PRIMARY KEY ("station_designator"),
+	CONSTRAINT fk_dept_id FOREIGN KEY (department_id)
+        REFERENCES public.department (department_id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
 )
 WITH (
     OIDS = FALSE

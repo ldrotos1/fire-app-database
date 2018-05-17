@@ -9,9 +9,12 @@ CREATE TABLE public."apparatus"
     "station_designator" integer,
     "apparatus_type_id" integer NOT NULL,
     "is_reserve" boolean NOT NULL,
-    CONSTRAINT "apparatus_pkey" PRIMARY KEY ("id"),
-    CONSTRAINT unit_designator_uq_cons UNIQUE ("unit_designator"),
-	CONSTRAINT apparatus_apparatus_type_id_fkey FOREIGN KEY (apparatus_type_id)
+    CONSTRAINT "apparatus_pkey" PRIMARY KEY ("apparatus_id"),
+	CONSTRAINT fk_station FOREIGN KEY (station_designator)
+        REFERENCES public.station (station_designator) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+	CONSTRAINT fk_apparatus_type FOREIGN KEY (apparatus_type_id)
         REFERENCES public.apparatus_type (apparatus_type_id) MATCH SIMPLE
         ON UPDATE NO ACTION
         ON DELETE NO ACTION

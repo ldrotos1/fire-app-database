@@ -1,2 +1,2 @@
 COPY "apparatus"("apparatus_id","unit_designator","station_designator","apparatus_type_id","is_reserve") 
-FROM 'C:\Users\Louis\WORKSPACES\fire-app\fire-app-database\apparatus_data.csv' DELIMITER ',' CSV HEADER;;
+FROM 'C:\Users\Louis\WORKSPACES\fire-app\fire-app-database\apparatus_data.csv' DELIMITER ',' CSV HEADER;
