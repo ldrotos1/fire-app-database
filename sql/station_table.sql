@@ -4,6 +4,7 @@
 
 CREATE TABLE public."station"
 (
+	"station_id" integer NOT NULL,
     "station_designator" integer NOT NULL,
     "number" integer NOT NULL,
     "department_id" integer NOT NULL,
@@ -17,7 +18,8 @@ CREATE TABLE public."station"
     "phone" character varying(12) COLLATE pg_catalog."default" NOT NULL,
     "is_volunteer" boolean NOT NULL,
     "location" point,
-    CONSTRAINT "station_pkey" PRIMARY KEY ("station_designator"),
+    CONSTRAINT "station_pkey" PRIMARY KEY ("station_id"),
+	CONSTRAINT station_desig_uc UNIQUE (station_designator),
 	CONSTRAINT fk_dept_id FOREIGN KEY (department_id)
         REFERENCES public.department (department_id) MATCH SIMPLE
         ON UPDATE NO ACTION
