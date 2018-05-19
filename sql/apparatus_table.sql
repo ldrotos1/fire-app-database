@@ -6,12 +6,12 @@ CREATE TABLE public."apparatus"
 (
     "apparatus_id" integer NOT NULL,
     "unit_designator" character varying(15) COLLATE pg_catalog."default",
-    "station_designator" integer,
+    "station_id" integer,
     "apparatus_type_id" integer NOT NULL,
     "is_reserve" boolean NOT NULL,
     CONSTRAINT "apparatus_pkey" PRIMARY KEY ("apparatus_id"),
-	CONSTRAINT fk_station FOREIGN KEY (station_designator)
-        REFERENCES public.station (station_designator) MATCH SIMPLE
+	CONSTRAINT fk_station FOREIGN KEY (station_id)
+        REFERENCES public.station (station_id) MATCH SIMPLE
         ON UPDATE NO ACTION
         ON DELETE NO ACTION,
 	CONSTRAINT fk_apparatus_type FOREIGN KEY (apparatus_type_id)
