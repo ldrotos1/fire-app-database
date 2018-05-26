@@ -14,7 +14,8 @@ CREATE TABLE public."department"
     "phone" character varying(12) COLLATE pg_catalog."default" NOT NULL,
     "personnel" integer NOT NULL,
     "border" polygon,
-    CONSTRAINT "department_pkey" PRIMARY KEY ("id")
+    CONSTRAINT department_pkey PRIMARY KEY (id),
+	CONSTRAINT dept_name_uc UNIQUE (name)
 )
 WITH (
     OIDS = FALSE
