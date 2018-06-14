@@ -1,0 +1,24 @@
+apparatus_type_id,name,name,description,category,include_in_simulator
+1,Engine,engine.jpeg,none,Fire Suppression,1
+2,Truck,truck.jpeg,none,Aerial Support,1
+3,Tower,tower.jpeg,none,Aerial Support,1
+4,Tiller,tiller.jpeg,none,Aerial Support,1
+5,Rescue,rescue.jpeg,none,Rescue,1
+6,Medic,medic.jpeg,none,Medical,1
+7,Battalion Chief,battalion_chief.jpeg,none,Command,1
+8,Tanker,tanker.jpeg,none,Fire Suppression,1
+9,Hazmat,hazmat.jpeg,none,Special Incident,1
+10,Foam,foam.jpeg,none,Fire Suppression,1
+11,Technical Rescue,technical_rescue.jpeg,none,Rescue,0
+12,EMS Supervisor,ems_supervisor.jpeg,none,Command,1
+13,Mobile Command Post,command_post.jpeg,none,Command,1
+14,Utility,utility.jpeg,none,General Support,0
+15,Brush,brush.jpeg,none,Special Incident,0
+16,Rehabilitation,rehabilitation.jpeg,none,General Support,0
+17,Mass Casualty Support,mass_cas_sup.jpeg,none,Medical,1
+18,Inflatable Boat,boat.jpeg,none,Special Incident,1
+19,Mobile Air,mobile_air.jpeg,none,General Support,0
+20,Mobile Light and Air,light_and_air.jpeg,none,General Support,0
+21,Canteen,canteen.jpeg,none,General Support,0
+22,Foam Engine,foam_engine.jpeg,none,Fire Suppression,1
+23,Medical Ambulance Bus,med_ambulance_bus.jpeg,none,Medical,1
