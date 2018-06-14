@@ -8,7 +8,9 @@ CREATE TABLE public."apparatus_type"
     name character varying(50) COLLATE pg_catalog."default" NOT NULL,
     image character varying(50) COLLATE pg_catalog."default" NOT NULL,
     description text COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT apparatus_type_pkey PRIMARY KEY (id),
+	category character varying(50) COLLATE pg_catalog."default" NOT NULL,
+	include_in_simulator integer NOT NULL,
+    CONSTRAINT apparatus_type_pkey PRIMARY KEY (apparatus_type_id),
 	CONSTRAINT app_type_name_uc UNIQUE (name)
 )
 WITH (

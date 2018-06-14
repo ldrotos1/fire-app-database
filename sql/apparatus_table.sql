@@ -13,8 +13,8 @@ CREATE TABLE public."apparatus"
 	CONSTRAINT unit_desig_uc UNIQUE (unit_designator),
 	CONSTRAINT fk_station FOREIGN KEY (station_id)
         REFERENCES public.station (station_id) MATCH SIMPLE
-        ON UPDATE NO ACTION
-        ON DELETE NO ACTION,
+        ON UPDATE CASCADE
+        ON DELETE SET NULL,
 	CONSTRAINT fk_apparatus_type FOREIGN KEY (apparatus_type_id)
         REFERENCES public.apparatus_type (apparatus_type_id) MATCH SIMPLE
         ON UPDATE NO ACTION

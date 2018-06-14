@@ -22,7 +22,7 @@ CREATE TABLE public."station"
 	CONSTRAINT station_desig_uc UNIQUE (station_designator),
 	CONSTRAINT fk_dept_id FOREIGN KEY (department_id)
         REFERENCES public.department (department_id) MATCH SIMPLE
-        ON UPDATE NO ACTION
+        ON UPDATE CASCADE
         ON DELETE NO ACTION
 )
 WITH (
