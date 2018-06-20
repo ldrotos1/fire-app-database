@@ -5,7 +5,7 @@
 CREATE TABLE public."area_of_interest_boundary"
 (
 	"id" integer NOT NULL,
-    "boundary" polygon,
+    "boundary" geometry(Polygon,4326),
     CONSTRAINT "aoi_pkey" PRIMARY KEY ("id")
 )
 WITH (
