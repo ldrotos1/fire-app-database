@@ -1,9 +1,9 @@
 station_id,station_designator,station_number,department_id,lat,lon,station_name,address,city,state,zip,phone,is_volunteer
-1,101,1,1,38.86675635,-77.09600173,Glebe Road,500 S Glebe Rd,Arlington,VA,22204,703-228-0101,FALSE
-2,102,2,1,38.87895282,-77.11994184,Ballston,4805 Wilson Blvd,Arlington,VA,22203,703-228-0102,FALSE
-3,103,3,1,38.89809004,-77.10997521,Cherrydale,4100 Old Dominion Dr,Arlington,VA,22207,703-228-0103,TRUE
-4,104,4,1,38.88434939,-77.09552352,Clarendon,3121 10th St N,Arlington,VA,22201,703-228-0104,FALSE
-5,105,5,1,38.85750291,-77.05848518,Jefferson District,1750 S Hayes St,Arlington,VA,22202,703-228-0105,FALSE
+1,101,1,1,38.866756,-77.096002,Glebe Road,500 S Glebe Rd,Arlington,VA,22204,703-228-0101,FALSE
+2,102,2,1,38.878953,-77.119941,Ballston,4805 Wilson Blvd,Arlington,VA,22203,703-228-0102,FALSE
+3,103,3,1,38.898090,-77.10997521,Cherrydale,4100 Old Dominion Dr,Arlington,VA,22207,703-228-0103,TRUE
+4,104,4,1,38.884349,-77.09552352,Clarendon,3121 10th St N,Arlington,VA,22201,703-228-0104,FALSE
+5,105,5,1,38.857503,-77.05848518,Jefferson District,1750 S Hayes St,Arlington,VA,22202,703-228-0105,FALSE
 6,106,6,1,38.8873676,-77.16386915,Falls Church,6950 Little Falls Rd,Arlington,VA,22213,703-228-0106,TRUE
 7,107,7,1,38.83674434,-77.0954582,Fairlington,3116 S Abingdon St,Arlington,VA,22206,703-228-0107,FALSE
 8,108,8,1,38.89687654,-77.12717879,Lee Highway,4845 Lee Hwy,Arlington,VA,22207,703-228-0108,FALSE
