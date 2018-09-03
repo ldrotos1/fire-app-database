@@ -1,24 +1,24 @@
 apparatus_type_id,name,name,description,category,include_in_simulator
-1,Engine,engine.jpeg,none,Fire Suppression,1
-2,Truck,truck.jpeg,none,Aerial Support,1
-3,Tower,tower.jpeg,none,Aerial Support,1
-4,Tiller,tiller.jpeg,none,Aerial Support,1
-5,Rescue,rescue.jpeg,none,Rescue,1
-6,Medic,medic.jpeg,none,Medical,1
-7,Battalion Chief,battalion_chief.jpeg,none,Command,1
-8,Tanker,tanker.jpeg,none,Fire Suppression,1
-9,Hazmat,hazmat.jpeg,none,Special Incident,1
-10,Foam,foam.jpeg,none,Fire Suppression,1
-11,Technical Rescue,technical_rescue.jpeg,none,Rescue,0
-12,EMS Supervisor,ems_supervisor.jpeg,none,Command,1
-13,Mobile Command Post,command_post.jpeg,none,Command,1
-14,Utility,utility.jpeg,none,General Support,0
-15,Brush,brush.jpeg,none,Special Incident,0
-16,Rehabilitation,rehabilitation.jpeg,none,General Support,0
-17,Mass Casualty Support,mass_cas_sup.jpeg,none,Medical,1
-18,Inflatable Boat,boat.jpeg,none,Special Incident,1
-19,Mobile Air,mobile_air.jpeg,none,General Support,0
-20,Mobile Light and Air,light_and_air.jpeg,none,General Support,0
-21,Canteen,canteen.jpeg,none,General Support,0
-22,Foam Engine,foam_engine.jpeg,none,Fire Suppression,1
-23,Medical Ambulance Bus,med_ambulance_bus.jpeg,none,Medical,1
+1,Engine,engine.jpg,"A general purpose apparatus that is used during a variety of emergency incidents. For fire incidents, engines are used for transporting firefighters to the scene, providing a limited supply of water with which to fight the fire, and carrying tools, equipment, and hoses needed by the firefighters. Engines are also equipped with supplies and tools that are used for vehicle accidents and medical emergencies.",Fire Suppression,1
+2,Truck,truck.jpg,"An aerial support apparatus with a telescoping hydraulic ladder. Used to gain access to upper floors and roofs of structures in order to facilitate rescues, support ventilation tasks  and provide elevated water streams.",Aerial Support,1
+3,Tower,tower.jpg,"An aerial support apparatus with a telescoping hydraulic ladder with a basket mounted to the end of the ladder that provides a secure platform from which fire fighters can operate. Used to gain access to upper floors and roofs of structures in order to facilitate rescues, support ventilation tasks and provide elevated water streams.",Aerial Support,1
+4,Tiller,tiller.jpg,"An aerial support apparatus with a telescoping hydraulic ladder that is long enough to support operations at mid and high rise structures. Used to gain access to upper floors and roofs of structures in order to facilitate rescues, support ventilation tasks  and provide elevated water streams.",Aerial Support,1
+5,Rescue,rescue.jpg,"An apparatus that is manned by specially trained staff trained to handle technical rescues. The apparatus is equipped with tools and extrication equipment used to rescue individuals trapped in vehicles and collapsed structures.",Rescue,1
+6,Medic,medic.jpg,"Ambulances are primarily used to response to medical emergencies and to transport patients to the hospital. They are equipped to provide first aid and basic life support and in some cases advanced life support.",Medical,1
+7,Battalion Chief,battalion_chief.jpg,"A vehicle staffed by a fire department battalion chief who has command responsibilities during emergency incidents. Typically these vehicles are specialized SUVs equipped with communication and other equipment to assist the chief in their command duties.",Command,1
+8,Tanker,tanker.jpg,"Tankers are apparatus that are equipped with a large water tank. They are used to transport water to fire incidents in areas that are not served by fire hydrants.,Fire Suppression.",1
+9,Hazmat,hazmat.jpg,"An specialized apparatus that is used to respond to incidents involving hazardous materials including chemical, biological, radiological, and nuclear threats. Hazmat apparatus are  equipped with atmospheric monitoring, sampling, spill containment, and decontamination equipment.",Special Incident,1
+10,Foam,foam.jpg,"A specialized apparatus designed to be used for emergency incidents at airports. They are equipped with foam tanks and built-in high pressure nozzles that can be used to quickly put out fires involving large amounts of jet fuel. These vehicles are also equipped with a suspension that allow them to easily navigate off road in areas around runways.",Fire Suppression,1
+11,Technical Rescue,technical_rescue.jpg,"An apparatus that is manned by specially trained staff trained to handle technical rescues. These apparatus are equipped with specialized tools and extrication equipment used in technical rescue emergencies including advanced vehicle extrication, structural collapse, trench collapse, confined space and high angle rope rescues.",Rescue,0
+12,EMS Supervisor,ems_supervisor.jpg,"A vehicle staffed by a fire department EMS supervisor who has supervisory responsibilities during serious medical emergency incidents. Typically these vehicles are specialized SUVs equipped with communication and other equipment to assist the supervisor in their duties.",Command,1
+13,Mobile Command Post,command_post.jpg,"A specialty apparatus used during large emergency incidents. Mobil command posts are equipped with tools to assist incident commanders with communication, coordination and control of numerous assets deployed to large and complex incidents.",Command,1
+14,Utility,utility.jpg,"General purpose 4-wheel drive pickup truck or SUV used to transport personnel and equipment.",General Support,0
+15,Brush,brush.jpg,"A four-wheel drive vehicle that carries a small pump, water tank and tools used to extinguish brush fires in areas with limited vehicular access.",Special Incident,0
+16,Rehabilitation,rehabilitation.jpg,"Rehabilitation apparatus are used to help fire fighters recover after performing a work cycle at an emergency incident. After completing a work cycle fire fighters are moved to the apparatus for medical monitoring, rehydration and cooling or warming.",General Support,0
+17,Mass Casualty Support,mass_cas_sup.jpg,"A specialized unit used during mass casualty incidents. These units are equipped with large amounts of first aid medical supplies and equipment used to set up and run triage operations.",Medical,1
+18,Inflatable Boat,boat.jpg,"Inflatable boat units are used to support water rescues emergencies. This can include rescues in flooded or swift water environments. Boat units can also be used to transport emergency personnel and victims when the most practical means of transport is by water.",Special Incident,1
+19,Mobile Air,mobile_air.jpg,"A specialized apparatus used to provide supplemental oxygen bottles at emergency incidents. These units also have the ability to refill oxygen bottles while in the field using onboard air compressors and also carry a supply of spare bottles.",General Support,0
+20,Mobile Light and Air,light_and_air.jpg,"A specialized unit used to provide supplemental lighting and oxygen bottles at emergency incidents. These units have the ability to refill oxygen bottles while in the field using onboard air compressors and also carry a supply of spare bottles. These units are also equipped with diesel generators which supplies electricity to power portable lights.",General Support,0
+21,Canteen,canteen.jpg,"A modified food truck that is used during prolonged emergencies to provide food and drink to emergency personnel.",General Support,0
+22,Foam Engine,foam_engine.jpg,"A foam engine is a fire engine that has been a specially equipped with a foam tank. These engines can respond to incidents involving fuel spills or fires fueled by flammable liquids.",Fire Suppression,1
+23,Medical Ambulance Bus,med_ambulance_bus.jpg,"A specialized unit that is used to transport large numbers of patients to a hospital during mass casualty incidents. These units are equipped to provide critical care and advanced life support to individuals being transported.",Medical,1
