@@ -64,7 +64,7 @@ station_id,station_designator,station_number,department_id,lat,lon,station_name,
 63,440,40,4,38.84817,-77.364902,Fairfax Center,4621 Legato Road,Fairfax,VA,22030,703-322-4500,FALSE
 64,441,41,4,38.71997256,-77.27862307,Crosspointe,9610 Hampton Road,Fairfax Station,VA,22039,703-493-8990,FALSE
 65,442,42,4,38.95712748,-77.2750435,Wolftrap,1315 Beulah Rd,Vienna,VA,22182,703-757-7910,FALSE
-66,463,1,5,38.715868,-77.151419,North Post,6100 Abbott Road,Fort Belvoir,VA,22060,703-806-6912,FALSE
-67,464,2,5,38.758498,-77.189869,Belvoir North,7130 Barta Road,Springfield,VA,22153,703-806-1911,FALSE
-68,465,3,5,38.692239,-77.142166,Belvoir South,9701 Gunston Road,Fort Belvoir,VA,22060,703-805-4911,FALSE
+66,463,1,5,38.715868,-77.151419,Fort Belvoir North Post,6100 Abbott Road,Fort Belvoir,VA,22060,703-806-6912,FALSE
+67,464,2,5,38.758498,-77.189869,Fort Belvoir North,7130 Barta Road,Springfield,VA,22153,703-806-1911,FALSE
+68,465,3,5,38.692239,-77.142166,Fort Belvoir South Post,9701 Gunston Road,Fort Belvoir,VA,22060,703-805-4911,FALSE
 69,466,4,5,38.7151123,-77.176305,Davison Airfield,8915 Gavin Road,Fort Belvoir,VA,22060,703-806-7095,FALSE
