@@ -21,9 +21,9 @@ station_id,station_designator,station_number,department_id,lat,lon,station_name,
 20,209,9,3,38.83122243,-77.04994634,Potomac Yards,2800 Main Line Blvd,Alexandria,VA,22305,703-746-5209,FALSE
 21,210,10,3,38.801665,-77.126592,Eisenhower Valley,5255 Eisenhower Ave,Alexandria,VA,22304,703-746-5210,FALSE
 22,301,1,7,38.844756,-77.044051,Reagan National,1003 South Access Road,Arlington,VA,22202,703-417-8250,FALSE
-23,302,2,7,38.92943,-77.45552,Dulles International South Side,44715 Vortac Road,Chantilly,VA,20151,703-417-8204,FALSE
-24,303,3,7,38.96451,-77.44854,Dulles International North Side,44900 Rudder Road,Sterling,VA,20166,877-762-7824,FALSE
-25,304,4,7,38.97509,-77.47129,Dulles International North Side ARFF,44210 Weather Service Road,Sterling,VA,20166,703-572-2302,FALSE
+23,302,2,7,38.92943,-77.45552,Dulles Intl. South Side,44715 Vortac Road,Chantilly,VA,20151,703-417-8204,FALSE
+24,303,3,7,38.96451,-77.44854,Dulles Intl. North Side,44900 Rudder Road,Sterling,VA,20166,877-762-7824,FALSE
+25,304,4,7,38.97509,-77.47129,Dulles Intl. ARFF,44210 Weather Service Road,Sterling,VA,20166,703-572-2302,FALSE
 26,401,1,4,38.93170767,-77.17720881,McLean,1455 Laughlin Avenue,McLean,VA,22101,703-356-6671,TRUE
 27,402,2,4,38.89910054,-77.26110868,Vienna,400 Center Street SW,Vienna,VA,22180,703-938-2242,TRUE
 28,403,3,2,38.84367005,-77.30565113,South Fairfax City,4081 University Dr,Fairfax,VA,22030,703-385-7940,TRUE
@@ -66,5 +66,5 @@ station_id,station_designator,station_number,department_id,lat,lon,station_name,
 65,442,42,4,38.95712748,-77.2750435,Wolftrap,1315 Beulah Rd,Vienna,VA,22182,703-757-7910,FALSE
 66,463,1,5,38.715868,-77.151419,North Post,6100 Abbott Road,Fort Belvoir,VA,22060,703-806-6912,FALSE
 67,464,2,5,38.758498,-77.189869,Belvoir North,7130 Barta Road,Springfield,VA,22153,703-806-1911,FALSE
-68,465,3,5,38.692239,-77.142166,South North,9701 Gunston Road,Fort Belvoir,VA,22060,703-805-4911,FALSE
+68,465,3,5,38.692239,-77.142166,Belvoir South,9701 Gunston Road,Fort Belvoir,VA,22060,703-805-4911,FALSE
 69,466,4,5,38.7151123,-77.176305,Davison Airfield,8915 Gavin Road,Fort Belvoir,VA,22060,703-806-7095,FALSE
