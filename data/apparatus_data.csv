@@ -332,3 +332,5 @@ id,unit_designator,station_id,unit_type_id,reserved
 333,FM466,69,10,FALSE
 334,FM466B,69,10,TRUE
 335,UT466,69,14,FALSE
+336,HMS440,63,9,FALSE
+337,SHRU440,63,9,FALSE
