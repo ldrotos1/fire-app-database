@@ -58,7 +58,7 @@ station_id,station_designator,station_number,department_id,lat,lon,station_name,
 57,434,34,4,38.87618233,-77.30959336,Oakton,10511 Rosehaven Street,Fairfax,VA,22030,703-591-0273,FALSE
 58,435,35,4,38.74633096,-77.25243474,Pohick,7801 Maritime Lane,Springfield,VA,22153,703-451-5500,FALSE
 59,436,36,4,38.93625563,-77.41403892,Frying Pan,2660 West Ox Road,Herndon,VA,20171,703-793-0043,FALSE
-60,437,37,4,38.74234138,-77.15889404,Kingstowne,7936 Telegraph Road,Alexandria,VA,22315,703-719-9294,FALSE
+60,437,37,4,38.74252,-77.15919,Kingstowne,7936 Telegraph Road,Alexandria,VA,22315,703-719-9294,FALSE
 61,438,38,4,38.8437895,-77.45356896,West Centreville,6001 ODay Drive,Centreville,VA,20120,703-802-2806,FALSE
 62,439,39,4,38.99788765,-77.34241291,North Point,1117 Reston Avenue,Herndon,VA,20170,703-433-1418,FALSE
 63,440,40,4,38.84817,-77.364902,Fairfax Center,4621 Legato Road,Fairfax,VA,22030,703-322-4500,FALSE
