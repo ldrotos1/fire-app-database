@@ -46,7 +46,7 @@ CREATE TABLE public."station"
     "zip" character varying(5) COLLATE pg_catalog."default" NOT NULL,
     "phone" character varying(12) COLLATE pg_catalog."default" NOT NULL,
     "is_volunteer" boolean NOT NULL,
-    "location" point,
+    "location" geometry(Point,4326),
     CONSTRAINT "station_pkey" PRIMARY KEY ("station_id"),
 	CONSTRAINT station_desig_uc UNIQUE (station_designator),
 	CONSTRAINT fk_dept_id FOREIGN KEY (department_id)
